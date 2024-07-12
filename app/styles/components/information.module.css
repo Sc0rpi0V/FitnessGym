@@ -1,0 +1,112 @@
+  /*---------------------------------------
+     HERO              
+  -----------------------------------------*/
+
+  .hero {
+    background-image: url('../../../public/hero-bg.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+/* BG OVERLAY */
+
+  .bg__overlay {
+    background:#171819;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.20;
+  }
+
+  .subtitle {
+    color: #909090;
+    font-size: 22px;
+    line-height: inherit;
+    margin: 0;
+  }
+
+  .text__white {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: #fff!important;
+  }
+
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* BUTTON */
+
+  .custom__btn {
+    background: transparent;
+    border-radius: 2px;
+    padding: 14px 24px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+
+  .custom__btn:hover {
+    color: #f13a11;
+  }
+
+  .custom__btn:focus {
+    box-shadow: none;
+  }
+
+  .custom__btn.bordered:hover,
+  .custom__btn.bordered:focus,
+  .custom__btn.bg-color:hover,
+  .custom__btn.bg-color:focus {
+    background: #ffffff;
+    border-color: transparent;
+    color: #f13a11;
+  }
+
+  .bordered {
+    border: 1px solid #f13a11;
+    color: #f13a11;
+  }
+
+  .bg__color {
+    background: #f13a11;
+    color: #ffffff;
+  }
+
+  @media (min-width:1200px) {
+
+    .container {
+      max-width: 750px;
+    }
+  }

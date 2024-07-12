@@ -1,0 +1,108 @@
+/*---------------------------------------
+      ABOUT & TEAM            
+  -----------------------------------------*/
+
+  .about {
+    background: #f9f9f9;
+  }
+
+  .section {
+    padding: 7rem 0;
+  }
+
+  .about-working-hours {
+    border-left: 2px solid;
+    padding-left: 3.5rem;
+  }
+
+  .about-working-hours strong {
+    color: var(--white-color);
+    opacity: 0.85;
+  }
+
+  .team__thumb {
+    position: relative;
+  }
+
+  .team-info {
+    background: var(--white-color);
+    border-radius: 0 0 2px 2px;
+    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+    padding: 20px;
+    position: relative;
+  }
+
+  .team-info span {
+    font-weight: var(--font-weight-light);
+    opacity: 0.85;
+  }
+
+  .team-info .social-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .team-info .social-icon li {
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .about {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    max-width: 500px;
+  }
+
+  .about__2 {
+	margin-right: 7rem;
+	margin-left: 7rem;
+	margin-top: 1rem;
+  }
+
+  .text__black {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: #000!important;
+  }
+
+  .info__about {
+    color: #666262;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+	margin-bottom: 1.5rem;
+  }
+
+  @media screen and (max-width: 992px) {
+
+    .section {
+      padding: 5rem 0;
+    }
+
+    .about {
+      margin-top: 3rem;
+      margin-bottom: 0;
+    }
+  }

@@ -1,0 +1,134 @@
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .features {
+	background: #171819;
+	padding: 5rem 0;
+  }
+
+  .text__white {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: #fff!important;
+  }
+
+  .text__white__h6 {
+	font-size: 22px;
+    color: #fff!important;
+	margin-bottom: 1.5rem;
+  }
+
+  .text__white__h2 {
+	font-size: 36px;
+    font-weight: bold;
+    color: #fff!important;
+    letter-spacing: -2px;
+  }
+
+  .custom__btn {
+    background: transparent;
+    border-radius: 2px;
+    padding: 14px 24px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+	text-align: center;
+  }
+
+  .custom__btn:hover {
+    color: #f13a11;
+  }
+
+  .custom__btn:focus {
+    box-shadow: none;
+  }
+
+  .custom__btn.bg-color:hover,
+  .custom__btn.bg-color:focus {
+    background: #ffffff;
+    border-color: transparent;
+    color: #f13a11;
+  }
+
+  .bg__color {
+    background: #f13a11;
+    color: #ffffff;
+  }
+
+  .para__feature {
+	color: #666262;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+	margin-bottom: 1.5rem;
+  }
+
+  .news {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+
+  .news__2 {
+	margin-right: 7rem;
+	margin-left: 7rem;
+	margin-top: 1rem;
+  }
+  
+  .separator {
+    width: 1px;
+    background-color: #909090;
+    height: 250px; 
+    margin: 20px 20px 0 120px; 
+  }
+
+  .about__working__hours strong {
+    color: #ffffff;
+    opacity: 0.85;
+  }
+
+  .d__block {
+	font-weight: bold;
+    letter-spacing: 0;
+	display: block;
+	margin-top: 1rem;
+  }
+
+  .info {
+	color: #666262;
+    font-size: v18px;
+    font-weight: 300;
+    line-height: 1.5em;
+  }
+
+  @media (min-width:992px) {
+	.ml-lg-auto, .mx-lg-auto {
+	margin-left: 350px;
+	}
+  }
+
+  @media (min-width:992px) {
+	.mr-lg-5, .mx-lg-5 {
+	max-width: 500px;
+	}
+  }

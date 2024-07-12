@@ -1,0 +1,9 @@
+export default function IntercepteurFold2() {
+    return (
+        <div className="w-full h-screen flex items-center justify-center">
+        <h1 className="text-center text-slate-900 text-4xl my-6">
+            (.) Intercepteur fold 2
+        </h1>
+    </div>
+    )
+}

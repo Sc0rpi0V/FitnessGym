@@ -1,0 +1,199 @@
+/*---------------------------------------
+     MENU             
+  -----------------------------------------*/
+
+  .navbar .navbar__nav {
+    display: flex;
+    align-items: center;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  .navbar .navbar__nav .nav__item {
+    margin-right: 20px; 
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .fixed__top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .navbar__brand {
+    flex-shrink: 0;
+  }
+
+  .navbar__nav {
+    margin-left: auto;
+  }
+
+  .navbar {
+    background: #171819;
+    padding: 1rem;
+  }
+
+  .navbar__expand__lg .navbar__nav .nav__link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .navbar__brand {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: normal;
+    padding-top: 0;
+    margin-right: 440px;
+    margin-left: 140px;
+  }
+
+  .nav__item .nav__link {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 2px 6px;
+  }
+
+  .nav__item .nav__link.active,
+  .nav__item .nav__link:hover {
+    color: #f13a11;
+  }
+
+  .navbar .social__icon li a {
+    color: #ffffff;
+  }
+
+  .navbar__toggler {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 35px;
+    outline: none;
+  }
+
+  .navbar__toggler:focus {
+    outline: none;
+  }
+
+  .navbar__toggler[aria-expanded="true"] .navbar__toggler__icon {
+    background: transparent;
+  }
+
+  .navbar__toggler[aria-expanded="true"] .navbar__toggler__icon::before,
+  .navbar__toggler[aria-expanded="true"] .navbar__toggler__icon::after {
+    transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
+    transition: top 300ms 50ms ease, transform 300ms 350ms ease;
+    transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
+    top: 0;
+  }
+
+  .navbar__toggler[aria-expanded="true"] .navbar__toggler__icon::before {
+    transform: rotate(45deg);
+  }
+
+  .navbar__toggler[aria-expanded="true"] .navbar__toggler__icon::after {
+    transform: rotate(-45deg);
+  }
+
+  .navbar__toggler .navbar__toggler__icon {
+    background: #f13a11;
+    transition: background 10ms 300ms ease;
+    display: block;
+    width: 30px;
+    height: 2px;
+    position: relative;
+  }
+
+  .navbar__toggler .navbar__toggler__icon::before,
+  .navbar__toggler .navbar__toggler__icon::after {
+    transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
+    transition: top 300ms 350ms ease, transform 300ms 50ms ease;
+    transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: #f13a11;
+    width: 30px;
+    height: 2px;
+    content: '';
+  }
+
+  .navbar__toggler .navbar__toggler__icon::before {
+    top: -8px;
+  }
+
+  .navbar__toggler .navbar__toggler__icon::after {
+    top: 8px;
+  }
+
+
+  /*---------------------------------------
+     SOCIAL ICON              
+  -----------------------------------------*/
+
+  .social__icon {
+    position: relative;
+    padding: 0;
+    margin: 5px 0 0 0;
+  }
+
+  .social__icon li {
+    display: inline-block;
+    list-style: none;
+  }
+
+  .social__icon li a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--p-color);
+    font-size: var(--p-font-size);
+    font-weight: var(--font-weight-bold);
+    margin: 5px 10px;
+    text-align: center;
+  }
+
+  .social__icon li a:hover {
+    color: var(--primary-color);
+  }
+
+  /*---------------------------------------
+     RESPONSIVE STYLES              
+  -----------------------------------------*/
+
+  @media screen and (max-width: 992px) {
+
+    .section {
+      padding: 5rem 0;
+    }
+
+    .nav__item .nav__link {
+      padding: 6px;
+    }
+
+    .navbar .social__icon {
+      margin-top: 22px;
+    }
+
+    .navbar__collapse,
+    .site__footer {
+      text-align: center;
+    }
+
+    .schedule__table {
+      display: block;
+    }
+
+    .modal__content {
+      padding: 2rem;
+    }
+  }
